@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>aleaplicativos Fidget Spinner with</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="back"></div>
+<div class="spinner">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+ <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="corners" style="display: none;">
+   <defs>
+     <filter id="corners">
+       <feGaussianBlur in="SourceGraphic" stdDeviation="0,7" />
+     </filter>
+   </defs>
+</svg>
+ <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="main" style="display: none;">
+   <defs>
+     <filter id="main">
+       <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+     </filter>
+   </defs>
+</svg>
+
+<div class="text">press to rotate!</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
